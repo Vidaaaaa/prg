@@ -1,0 +1,146 @@
+.border{
+    border: 2px solid #00f;
+    padding: 15px;
+    width: 50%;
+    margin: 10px auto;
+    background-color: rgb(146, 170, 236);
+}
+
+main > h1 {
+    text-align: center;
+}
+
+.callout{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #C0FFFE;
+}
+
+.counter{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    border: 3px solid #00f;
+    padding: 20px;
+}
+
+.counter h1{
+    font-size: 120px;
+    text-align: center;
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+
+    /* Direction of the items, can be row or column */
+    flex-direction: column;
+}
+
+.header{
+    height: 20px;
+    background-color: #570d6f;
+    color: #affb1a;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+    vertical-align: middle;
+}
+.footer {
+    height: 120px;
+    background-color: #570d6f;
+    color: #affb1a;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+}
+
+.navbar{
+    height: 32px;
+    background-color: #613196;
+    text-align: right;
+}
+
+.navbar a{
+    display: inline-block;
+    color: #affb1a;
+    font-weight: bold;
+    width: 112px;
+    margin: 5px;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    transition: all 800ms;
+    padding: 3px;
+}
+
+.navbar a:hover{
+    background-color: #affb1a;
+    color: #613196;
+}
+
+
+.navbar a.active{
+    border-bottom: 3px solid #affb1a;
+}
+
+.main {
+    flex: 1;
+    padding: 30px;
+    text-align: justify;
+}
+
+.main p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #613196;
+    background-color: #affb1a;
+}
+/****Slide.js****/
+.image div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+    
+  }
+     
+  .image span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+  /****Slide.js****/
+/****Login.js****/
+@media all and (min-width: 480px) {
+    .Login {
+      padding: 60px 0;
+    }
+  
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+ .Login input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .Login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  /****Login.js****/
